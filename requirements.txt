@@ -25,6 +25,7 @@ jupyterlab
 mistune
 nbconvert
 nbformat
+nbgitpuller
 notebook
 pandocfilters
 parso
