@@ -28,7 +28,6 @@ nbformat
 notebook
 pandocfilters
 parso
-pickleshare5
 prometheus-client
 prompt-toolkit
 pyrsistent
