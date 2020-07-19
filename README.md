@@ -4,7 +4,7 @@
 
 * [IJava](https://github.com/SpencerPark/IJava)
 * [RISE](https://rise.readthedocs.io)
-* nbgitpuller [discussion](https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922) | [generator](https://jupyterhub.github.io/nbgitpuller/link)
+* nbgitpuller: [discussion](https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922) | [generator](https://jupyterhub.github.io/nbgitpuller/link)
 
 ### Access content repo
 
