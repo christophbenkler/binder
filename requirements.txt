@@ -10,6 +10,7 @@ colorama
 decorator
 defusedxml
 entrypoints
+graphviz==0.10.*
 ipykernel
 ipython-genutils
 ipython
@@ -23,10 +24,12 @@ jupyter
 jupyterlab-server
 jupyterlab
 mistune
+matplotlib==3.*
 nbconvert
 nbformat
 nbgitpuller
 notebook
+networkx==2.3.*
 pandocfilters
 parso
 prometheus-client
@@ -35,6 +38,8 @@ pyrsistent
 python-dateutil
 pywinpty
 pyzmq
+pygraphviz==1.5
+pqdict==1.0
 qtconsole
 setuptools
 six
