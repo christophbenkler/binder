@@ -1,11 +1,8 @@
 FROM openjdk:11-jdk
 
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs npm python3-pip sl cmatrix sqlite vim emacs elinks w3m links nano man yelp ncdu less traceroute host whois telnet
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip sl cmatrix sqlite vim emacs elinks w3m links nano man yelp ncdu less traceroute host whois telnet
 RUN pip3 install --no-cache-dir rise nbgitpuller jupyterlab
-RUN npm config set prefix $HOME
-RUN npm install -g ijavascript
-RUN ijsinstall
 
 USER root
 
