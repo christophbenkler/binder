@@ -3,3 +3,15 @@ ffmpeg
 python-pygraphviz
 python3-pygraphviz
 libgraphviz-dev
+sl
+cmatrix
+zsh
+sqlite
+youtube-dl
+vim
+emacs
+elinks
+w3m
+lynx
+links
+nano
