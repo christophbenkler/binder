@@ -1,13 +1,8 @@
 FROM openjdk:11.0.3-jdk
 
 RUN apt-get update
-RUN apt-get install -y python3-pip
-
-# add requirements.txt, written this way to gracefully ignore a missing file
-COPY . .
-RUN ([ -f requirements.txt ] \
-    && pip3 install --no-cache-dir -r requirements.txt) \
-        || pip3 install --no-cache-dir jupyter jupyterlab
+RUN apt-get install -y python3-pip sl cmatrix zsh sqlite youtube-dl vim emacs elinks w3m lynx links nano
+RUN pip3 install --no-cache-dir jupyter jupyterlab rise
 
 USER root
 
