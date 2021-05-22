@@ -1,7 +1,7 @@
 FROM openjdk:11-jdk
 
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip sl cmatrix sqlite vim emacs elinks w3m links nano man yelp ncdu less traceroute host whois telnet cowsay youtube-dl nasm btrfs-progs sh fish
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip sl cmatrix sqlite vim emacs elinks w3m links nano man yelp ncdu less traceroute host whois telnet cowsay youtube-dl nasm btrfs-progs zsh fish
 RUN pip3 install --no-cache-dir rise nbgitpuller jupyterlab
 
 USER root
